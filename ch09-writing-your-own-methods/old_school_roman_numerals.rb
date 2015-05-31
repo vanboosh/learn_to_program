@@ -11,4 +11,5 @@ def old_roman_numeral num
   roman
 end
 
+puts "Pick a number:"
 puts(old_roman_numeral(gets.chomp.to_i))
