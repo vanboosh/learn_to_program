@@ -2,7 +2,7 @@ def ask quezzy
   while true
   	puts quezzy
   	reply = gets.chomp.downcase
-  	if reply == ('yes' || reply == 'no')
+  	if (reply == 'yes' || reply == 'no')
 	  	if reply == 'yes'
 	  		return true
 	  	else
